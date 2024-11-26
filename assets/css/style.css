@@ -98,9 +98,20 @@ label {
   @apply items-center md:flex;
 }
 .ta-header ul li {
-  @apply hidden my-1 lg:my-0 md:flex md:ml-6 lg:ml-8;
+  @apply hidden my-1 lg:my-0 md:flex md:ml-6 lg:ml-8 relative;
 }
-
+.ta-header ul li:hover ul{
+  @apply block;
+}
+.ta-header ul li ul{
+  @apply z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 absolute left-[0px] top-[38px];
+}
+.ta-header ul li ul li {
+@apply m-0 block p-0 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white
+}
+.ta-header ul li ul li a{
+  @apply block p-2;
+}
 .ta-header ul li a {
   @apply inline-block py-1 font-bold lg:py-3 hover:text-primary text-font-color;
 }
