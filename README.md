@@ -1,2 +1,1 @@
-# fixolab-wordpress
 # fixolab
