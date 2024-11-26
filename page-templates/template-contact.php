@@ -20,14 +20,8 @@ get_header(); ?>
         <div class="p-8 border rounded shadow-lg border-secondary">
 
           <ul class="grid grid-cols-3 gap-3 mb-6 text-center">
+           
             <li class="p-3 border rounded shadow-md cursor-pointer md:py-6 md:px-5 border-secondary tab tab-active">
-              <svg class="mx-auto mb-2 text-3xl fill-font-color-light" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
-                <path d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-              </svg>
-              <span class="text-font-color">Custom Project</span>
-
-            </li>
-            <li class="p-3 border rounded shadow-md cursor-pointer md:py-6 md:px-5 border-secondary tab">
               <svg class="mx-auto mb-2 text-3xl fill-font-color-light" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
                 <path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384v38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM368 321.6V328c0 8.8 7.2 16 16 16s16-7.2 16-16v-6.4c0-5.3 4.3-9.6 9.6-9.6h40.5c7.7 0 13.9 6.2 13.9 13.9c0 5.2-2.9 9.9-7.4 12.3l-32 16.8c-5.3 2.8-8.6 8.2-8.6 14.2V384c0 8.8 7.2 16 16 16s16-7.2 16-16v-5.1l23.5-12.3c15.1-7.9 24.5-23.6 24.5-40.6c0-25.4-20.6-45.9-45.9-45.9H409.6c-23 0-41.6 18.6-41.6 41.6z" />
               </svg>
@@ -43,14 +37,12 @@ get_header(); ?>
           </ul>
 
           <div class="tab-content">
+
             <div class="tab-pane tab-pane-active">
-              <?php echo do_shortcode('[contact-form-7 id="1843" title="Custom Project"]') ?>
+              <?php echo do_shortcode('[fluentform id="4"]') ?>
             </div>
             <div class="tab-pane">
-              <?php echo do_shortcode('[contact-form-7 id="1845" title="Pre-Sale Question"]') ?>
-            </div>
-            <div class="tab-pane">
-              <?php echo do_shortcode('[contact-form-7 id="1846" title="Support"]') ?>
+              <?php echo do_shortcode('[fluentform id="3"]') ?>
             </div>
           </div>
         </div>
