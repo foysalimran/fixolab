@@ -185,7 +185,7 @@ ul .tab.tab-active svg {
 .ta-footer ul li a {
   @apply text-sm;
 }
-.ta-footer.bg-secondary form,
+
 .ta-footer.bg-secondary form input {
   @apply !bg-white;
 }
