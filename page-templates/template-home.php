@@ -172,14 +172,7 @@ get_header(); ?>
         </a>
       </div>
     </div>
-    <div class="text-center">
-      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://1.envato.market/ta-plugins">
-        <?php _e('View All Plugins', 'fixolab'); ?>
-        <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
-        </svg>
-      </a>
-    </div>
+
   </div>
 </section>
 <!--====== Featured section end ======-->
